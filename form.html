@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Presupuesto </legend>
+
+        <!--
+        <div class="fila">
+          <div class="col-25">
+            <label for="txtNombre">nombre : </label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="txtNombre"
+              placeholder="ingresar tu nombre"
+            />
+          </div>
+        </div>
+
+        <div class="fila">
+          <div class="col-25">
+            <label for="txtApellido">apellido : </label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="txtApellido"
+              placeholder="ingresar tu apellido"
+            />
+          </div>
+        </div>
+
+        -->
+        <div class="fila">
+            <div class="col-25">
+              <label for="txtHoras">Horas : </label>
+            </div>
+            <div class="col-75">
+              <input
+              type="number"
+                id="txtHoras"
+                placeholder="ingresa horas"
+              />
+            </div>
+          </div>
+
+          <div class="fila">
+            <div class="col-25">
+              <label for="txtDias">Dias : </label>
+            </div>
+            <div class="col-75">
+              <input
+              type="number"
+                id="txtDias"
+                placeholder="ingresa los dias "
+              />
+            </div>
+          </div>
+<!--
+        <div class="fila">
+          <div class="col-25">
+            <label for="selPais">Pais: </label>
+          </div>
+          <div class="col-75">
+            <select name="selpais" id="selPais">
+              <option value="arg">Argentina</option>
+              <option value="col">Colombia</option>
+              <option value="ven">Venezuela</option>
+            </select>
+          </div>
+        </div>
+        -->
+        <div class="fila">
+          <div class="col-25">
+            <label for="txtResultado">Resultado: </label>
+          </div>
+          <div class="col-75">
+            <textarea
+              type="text"
+              id="txtResultado"
+              name="txtResultado"
+              placeholder="Comentario"
+              rows=""
+              cols="" disabled="true">
+            </textarea>
+          </div>
+        </div>
+        <div class="fila">
+          <button id="btn" type="submit">Enviar</button>
+          <button id="btn-borrar" type="reset">Borrar</button>
+        </div>
+      </fieldset>
+    </form>
+    <script src="./js/form.js"></script>
+  </body>
+</html>
